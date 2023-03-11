@@ -16,3 +16,25 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.timer {
+  display: flex;
+  padding-top: 30px;
+}
+.timer .field {
+  text-align: center;
+}
+
+.timer .field:not(:last-child) {
+  margin-right: 15px;
+}
+.timer .value {
+  display: block;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1;
+}
+.timer .label {
+  text-transform: uppercase;
+  font-size: 12px;
+}

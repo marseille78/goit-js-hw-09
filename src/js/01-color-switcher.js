@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
   refs.btnStop = document.querySelector('[data-stop]');
 
   if (refs.btnStart) {
-    refs.btnStart.addEventListener('click', () => startChange((refs.btnStart, refs.btnStop)));
+    refs.btnStart.addEventListener('click', () => startChange(refs.btnStart, refs.btnStop));
   }
 
   if (refs.btnStop) {
@@ -20,7 +20,7 @@ function getRandomHexColor() {
 }
 
 function startChange() {
-  intervalId = setInterval(changeBg, 1000)
+  intervalId = setInterval(changeBg, 1000);
 }
 
 function stopChange() {
