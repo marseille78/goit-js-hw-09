@@ -38,3 +38,14 @@ img {
   text-transform: uppercase;
   font-size: 12px;
 }
+
+.form {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.form label {
+  display: flex;
+  flex-direction: column;
+  margin-right: 15px;
+}
